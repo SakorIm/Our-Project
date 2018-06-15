@@ -1,6 +1,9 @@
 #include<conio.h>
 #include<stdio.h>
 <<<<<<< HEAD
+float division(float x, float y){
+	return x / y;
+}
 float Add(float x,float y){
   return x + y;
 }
@@ -28,7 +31,7 @@ void main(){
 				break;
 >>>>>>> 915323f0c0b37a5205edad25bb18cfd01fea31b5
     case '3' : break;
-    case '4' : break;
+    case '4' : rs = division(x,y); break;
   }
   printf("\nResult : %.2f",rs);
   getch();
